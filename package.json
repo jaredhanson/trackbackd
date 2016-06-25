@@ -1,0 +1,25 @@
+{
+  "name": "trackbackd",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bixby-common": "^0.1.0",
+    "bixby-express": "^0.1.1",
+    "bixby-http": "^0.1.0",
+    "body-parser": "^1.15.2",
+    "morgan": "^1.6.1",
+    "xmlbuilder": "^8.2.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.0",
+    "chai": "~1.8.1",
+    "chai-express-handler": "git://github.com/jaredhanson/chai-express-handler.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com"
+  }
+}
